@@ -1,0 +1,7 @@
+delete from logofeat;
+
+update urlbase set State=1  where State=2;
+ 
+update urlimage set State=0  where State=1;
+
+

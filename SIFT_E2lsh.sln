@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SIFT_E2lsh", "SIFT_E2lsh\SIFT_E2lsh.vcxproj", "{71D9AC1C-3D19-42AD-BDF0-196403401723}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71D9AC1C-3D19-42AD-BDF0-196403401723}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71D9AC1C-3D19-42AD-BDF0-196403401723}.Debug|Win32.Build.0 = Debug|Win32
+		{71D9AC1C-3D19-42AD-BDF0-196403401723}.Debug|x64.ActiveCfg = Debug|x64
+		{71D9AC1C-3D19-42AD-BDF0-196403401723}.Debug|x64.Build.0 = Debug|x64
+		{71D9AC1C-3D19-42AD-BDF0-196403401723}.Release|Win32.ActiveCfg = Release|Win32
+		{71D9AC1C-3D19-42AD-BDF0-196403401723}.Release|Win32.Build.0 = Release|Win32
+		{71D9AC1C-3D19-42AD-BDF0-196403401723}.Release|x64.ActiveCfg = Release|x64
+		{71D9AC1C-3D19-42AD-BDF0-196403401723}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
