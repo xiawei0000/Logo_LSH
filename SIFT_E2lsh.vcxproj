@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{71D9AC1C-3D19-42AD-BDF0-196403401723}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SIFT_E2lsh</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <ExecutablePath>C:\Program Files\MySQL\MySQL Connector C 6.1 6.1.2\bin;C:\Program Files\Visual Leak Detector\bin\Win64;D:\360\Opencv\gif\FreeImage3154\FreeImage\Dist;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>C:\Program Files\MySQL\MySQL Connector C 6.1 6.1.2\include;C:\Program Files\MySQL\MySQL Connector C 6.1 6.1.2\include\mysql;C:\Program Files\Visual Leak Detector\include;D:\360\Opencv\gif\FreeImage3154\FreeImage\Dist;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\MySQL\MySQL Connector C 6.1 6.1.2\lib;C:\Program Files\MySQL\MySQL Connector C 6.1 6.1.2\lib\vs10;C:\Program Files\MySQL\MySQL Connector C 6.1 6.1.2\lib\vs10\debug;C:\Program Files\Visual Leak Detector\lib\Win64;D:\360\Opencv\gif\FreeImage3154\FreeImage\Dist;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>FreeImage.lib;libmysql.lib;vld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="axutil_getopt_windows.h" />
+    <ClInclude Include="axutil_utils_defines.h" />
+    <ClInclude Include="Basic.h" />
+    <ClInclude Include="BasicDefinitions.h" />
+    <ClInclude Include="BucketHashing.h" />
+    <ClInclude Include="dirent.h" />
+    <ClInclude Include="Geometry.h" />
+    <ClInclude Include="GlobalVars.h" />
+    <ClInclude Include="headers.h" />
+    <ClInclude Include="imgfeatures.h" />
+    <ClInclude Include="kdtree.h" />
+    <ClInclude Include="LocalitySensitiveHashing.h" />
+    <ClInclude Include="mach.h" />
+    <ClInclude Include="mach_base.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="mach_index.h" />
+    <ClInclude Include="minpq.h" />
+    <ClInclude Include="myBase_Tools.h" />
+    <ClInclude Include="myFeat_Tools.h" />
+    <ClInclude Include="myFile_tools.h" />
+    <ClInclude Include="myMatrix_tools.h" />
+    <ClInclude Include="myPicture_tools.h" />
+    <ClInclude Include="mysql_main.h" />
+    <ClInclude Include="mysql_tools.h" />
+    <ClInclude Include="NearNeighbors.h" />
+    <ClInclude Include="pca.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="SelfTuning.h" />
+    <ClInclude Include="sift.h" />
+    <ClInclude Include="tools.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="xform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Basic.cpp" />
+    <ClCompile Include="BucketHashing.cpp" />
+    <ClCompile Include="Geometry.cpp" />
+    <ClCompile Include="getopt_windows.cpp" />
+    <ClCompile Include="GlobalVars.cpp" />
+    <ClCompile Include="imgfeatures.cpp" />
+    <ClCompile Include="kdtree.cpp" />
+    <ClCompile Include="LocalitySensitiveHashing.cpp" />
+    <ClCompile Include="LSHMain.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mach_index.cpp" />
+    <ClCompile Include="match.cpp" />
+    <ClCompile Include="minpq.cpp" />
+    <ClCompile Include="myBase_tools.cpp" />
+    <ClCompile Include="myFeat_tools.cpp" />
+    <ClCompile Include="myFile_tools.cpp" />
+    <ClCompile Include="myMatrix_tools.cpp" />
+    <ClCompile Include="myPicture_tools.cpp" />
+    <ClCompile Include="mysql_main.cpp" />
+    <ClCompile Include="mysql_tools.cpp" />
+    <ClCompile Include="NearNeighbors.cpp" />
+    <ClCompile Include="pca.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="SelfTuning.cpp" />
+    <ClCompile Include="sift.cpp" />
+    <ClCompile Include="tools.cpp" />
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="xform.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libmysql.dll" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
